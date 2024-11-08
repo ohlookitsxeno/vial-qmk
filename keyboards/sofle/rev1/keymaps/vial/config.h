@@ -27,6 +27,18 @@
 #define VIAL_UNLOCK_COMBO_ROWS { 0, 5, 3, 8 }
 #define VIAL_UNLOCK_COMBO_COLS { 0, 0, 0, 0 }
 
+
+#define SPLIT_TRANSPORT SERIAL
+
 #define SPLIT_USB_DETECT
 
 #define SPLIT_WATCHDOG_ENABLE 
+
+#define SPLIT_LAYER_STATE_ENABLE
+#define SPLIT_LED_STATE_ENABLE
+#define SPLIT_MODS_ENABLE
+#define SPLIT_OLED_ENABLE
+#undef LOCKING_SUPPORT_ENABLE
+#undef LOCKING_RESYNC_ENABLE
+
+#define OLED_FONT_H "keyboards/sofle/rev1/keymaps/vial/glcdfont.c"

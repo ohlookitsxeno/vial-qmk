@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "cstdint": "c",
+        "compare": "c"
+    },
+    "C_Cpp.dimInactiveRegions": false
+}
